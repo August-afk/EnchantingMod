@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantingmod",
+  "version": "${version}",
+  "name": "EnchantingMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/X/EnchantingMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/enchantingmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.august.enchantingmod.client.EnchantingModClient"
+    ],
+    "main": [
+      "net.august.enchantingmod.EnchantingMod"
+    ]
+  },
+  "mixins": [
+    "enchantingmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.august.enchantingmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ModifyEnchantingEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
